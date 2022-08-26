@@ -1,0 +1,33 @@
+.HomePage {
+  .header {
+    display: grid;
+    grid-template-columns: 3.2fr 0.8fr;
+    margin: 20px;
+    font-size: 2rem;
+    height: 80px;
+  }
+
+  .home-page-title {
+    text-align: center;
+    align-self: end;
+  }
+  .profile-logo {
+    height: 70px;
+    width: 70px;
+    margin-bottom: 20px;
+  }
+
+  .home-page-profile-info {
+    height: 50px;
+    width: 50px;
+    border-color: white;
+  }
+
+  .home-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+}
